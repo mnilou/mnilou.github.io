@@ -5,7 +5,7 @@ import Box from "@material-ui/core/Box";
 
 const useStyles = makeStyles((theme) => ({
   mainContainer: {
-    background: "#233",
+    background: "DarkSlateGray",
   },
   timeLine: {
     position: "relative",
@@ -48,7 +48,7 @@ const useStyles = makeStyles((theme) => ({
       right: "-0.625rem",
       top: "calc(50% - 5px)",
       borderStyle: "solid",
-      borderColor: "tomato tomato transparent transparent",
+      borderColor: "Aquamarine Aquamarine transparent transparent",
       borderWidth: "0.625rem",
       transform: "rotate(45deg)",
     },
@@ -63,7 +63,7 @@ const useStyles = makeStyles((theme) => ({
       "&:nth-of-type(2n):before": {
         right: "auto",
         left: "-0.625rem",
-        borderColor: "transparent transparent tomato tomato",
+        borderColor: "transparent transparent Aquamarine Aquamarine",
       },
     },
   },
@@ -73,7 +73,7 @@ const useStyles = makeStyles((theme) => ({
     margin: "0 3rem 0 auto",
     fontSize: "1.8rem",
     color: "#fff",
-    background: "tomato",
+    background: "DodgerBlue",
     lineHeight: 1,
     padding: "0.5rem 1rem",
     "&:before": {
@@ -92,7 +92,7 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   heading: {
-    color: "tomato",
+    color: "Aquamarine",
     padding: "3rem 0",
     textTransform: "uppercase",
   },
@@ -102,7 +102,7 @@ const useStyles = makeStyles((theme) => ({
     textTransform: "uppercase",
   },
   body1: {
-    color: "tomato",
+    color: "Aquamarine",
   },
   subtitle1: {
     color: "tan",

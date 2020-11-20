@@ -1,11 +1,20 @@
 {
-  "name": "mnilou.github.io",
+  "name": "portfolio",
+  "homepage": "https://mnilou.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.10.2",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/styles": "^4.10.0",
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.0",
     "@testing-library/user-event": "^12.2.2",
+    "i": "^0.3.6",
+    "npm": "^6.14.5",
+    "react-particles-js": "^3.2.1",
+    "react-router-dom": "^5.2.0",
+    "react-typed": "^1.2.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.0",
@@ -19,8 +28,7 @@
   },
   "eslintConfig": {
     "extends": [
-      "react-app",
-      "react-app/jest"
+      "react-app"
     ]
   },
   "browserslist": {
