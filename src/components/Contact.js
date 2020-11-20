@@ -4,27 +4,28 @@ import Box from '@material-ui/core/Box';
 import TextField from '@material-ui/core/TextField';
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
-// import Button from "@material-ui/core/Button";
 import Mailto from 'react-mailto.js';
-
-import Send from '@material-ui/icons/Send';
+import background from '../images/background2.jpg';
 
 const useStyles = makeStyles((theme) => ({
   contactContainer: {
-    background: 'DarkSlateGray',
+    background: background,
     height: '100vh',
   },
   heading: {
     color: 'Aquamarine',
+    background: 'Gray',
     textAlign: 'center',
     textTransform: 'uppercase',
     marginBottom: '1rem',
+    fontSize: '3rem',
   },
   form: {
     top: '50%',
     left: '50%',
     transform: 'translate(-50%, -50%)',
     position: 'absolute',
+    background: 'Gray',
   },
   input: {
     color: '#fff',
@@ -32,8 +33,10 @@ const useStyles = makeStyles((theme) => ({
   button: {
     marginTop: '1rem',
     textTransform: 'uppercase',
+    background: 'Gray',
     color: 'Aquamarine',
-    borderColor: 'tan',
+    borderColor: 'yellow',
+    fontSize: '1.5rem',
   },
   field: {
     margin: '1rem 0rem',
@@ -46,7 +49,7 @@ const InputField = withStyles({
       color: 'Aquamarine',
     },
     '& label': {
-      color: 'tan',
+      color: 'yellow',
     },
     '& .MuiOutlinedInput-root': {
       '& fieldset': {
@@ -70,7 +73,7 @@ const Contact = () => {
       <Grid container justify="center">
         <Box component="form" className={classes.form}>
           <Typography variant="h5" className={classes.heading}>
-            Hire or Contact me...
+            Contact me
           </Typography>
           <InputField
             fullWidth={true}
@@ -104,15 +107,6 @@ const Contact = () => {
           >
             Contact Me
           </Mailto>
-          {/* <Mailto
-            variant="outlined"
-            fullWidth={true}
-            href={"mailto: nilou@km-direct.com" + this.props.email}
-            endIcon={<Send />}
-            className={classes.button}
-          >
-            Contact Me
-          </Mailto> */}
         </Box>
       </Grid>
     </Box>
