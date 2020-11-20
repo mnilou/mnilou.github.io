@@ -35,7 +35,7 @@ const useStyles = makeStyles((theme) => ({
   },
   menuSliderContainer: {
     width: 250,
-    background: "#511",
+    background: "DarkSlateGray",
     height: "100%",
   },
   avatar: {
@@ -45,7 +45,7 @@ const useStyles = makeStyles((theme) => ({
     height: theme.spacing(13),
   },
   listItem: {
-    color: "tan",
+    color: "Aquamarine",
   },
 }));
 
