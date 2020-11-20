@@ -1,4 +1,5 @@
 import React from 'react';
+import {ExternalLink} from 'react-external-link';
 import {makeStyles} from '@material-ui/core/styles';
 import Box from '@material-ui/core/Box';
 import Grid from '@material-ui/core/Grid';
@@ -31,7 +32,7 @@ const useStyles = makeStyles((theme) => ({
 const projects = [
   {
     name: 'The Galactic Game',
-    description: `The app provides the user with a series of multiple choice questions relating to the Star Wars universe. This app differs from all others by displaying a Star Wars GIF that correlates with every correct or incorrect answer.`,
+    description: `This app provides the user with a series of multiple choice questions relating to the Star Wars universe. It differs from all others by displaying a Star Wars GIF that correlates with every correct or incorrect answer. The app uses vanilla Javascript, Bootstrap and CSS.`,
     image: project1,
   },
   {
@@ -89,12 +90,9 @@ const Portfolio = () => {
                 </CardContent>
               </CardActionArea>
               <CardActions>
-                <Button size="small" color="primary">
-                  Share
-                </Button>
-                <Button size="small" color="primary">
-                  Live Demo
-                </Button>
+                <ExternalLink href="https://github.com/mnilou">
+                  <span>Website</span>
+                </ExternalLink>
               </CardActions>
             </Card>
           </Grid>
