@@ -16,7 +16,7 @@ import project2 from '../images/burger-screenshot.jpg';
 import project3 from '../images/covid-screenshot.png';
 import project4 from '../images/weather-screenshot.png';
 import project5 from '../images/directory-screenshot.jpg';
-import project6 from '../images/react.png';
+import project6 from '../images/questbuddy-screenshot.png';
 
 const useStyles = makeStyles((theme) => ({
   mainContainer: {
@@ -56,7 +56,7 @@ const projects = [
     image: project5,
   },
   {
-    name: 'Campaign Planner',
+    name: 'Quest Buddy',
     description: `This REACT app is designed to keep track of employees through a directory.
 
     As a user I want to be able to view my entire employee directory at once so that I have quick access to their information. This REACT app uses Node.js, MongoDB, Axios, and DOTENV`,
